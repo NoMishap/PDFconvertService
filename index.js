@@ -36,5 +36,5 @@ app.get('/', function (request, response) {
 });
 
 
-app.listen("8080");
-console.log("server in esecuzione alla porta: 8080");
+app.listen(appEnv.port);
+console.log("server in esecuzione alla porta: "+appEnv.port);
