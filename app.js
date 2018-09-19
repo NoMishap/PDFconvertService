@@ -6,7 +6,6 @@ var indexRouter = require('./routes/index');
 var pdfToTextRouter = require('./routes/pdfToText');
 
 var app = express();
-setInterval(monitor.send,5000);
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
