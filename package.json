@@ -1,17 +1,23 @@
 {
   "name": "NodejsOpenshiftProxy",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "cfenv": "1.0.x",
-    "express": "4.13.x",
+    "elastic-apm-node": "",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "systeminformation": "",
+    "cfenv": "1.1.x",
     "pdf-text": ""
   },
   "repository": {},
   "engines": {
-    "node": "4.x"
+    "node": ""
   }
 }
